@@ -1,0 +1,120 @@
+.content-list4-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-list4-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-list4-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.content-list4-ul1 {
+  align-items: flex-start;
+}
+ 
+.content-list4-li1 {
+  align-items: flex-start;
+}
+ 
+.content-list4-ul2 {
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-fiveunits);
+}
+ 
+.content-list4-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.content-list4-ul3 {
+  align-items: flex-start;
+}
+ 
+.content-list4-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.content-list4-ul4 {
+  align-items: flex-start;
+}
+ 
+.content-list4-li4 {
+  align-items: flex-start;
+}
+ 
+.content-list4-heading10 {
+  align-self: center;
+  text-align: center;
+}
+ 
+.content-list4-content10 {
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.content-list4-ul5 {
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-fiveunits);
+}
+ 
+.content-list4-text1 {
+  display: inline-block;
+}
+ 
+.content-list4-text2 {
+  display: inline-block;
+}
+ 
+.content-list4-text3 {
+  display: inline-block;
+}
+ 
+.content-list4-text4 {
+  display: inline-block;
+}
+ 
+.content-list4-text5 {
+  display: inline-block;
+}
+ 
+.content-list4-text6 {
+  display: inline-block;
+}
+ 
+.content-list4-text7 {
+  display: inline-block;
+}
+ 
+.content-list4-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .content-list4-ul2 {
+    padding-left: var(--dl-layout-space-threeunits);
+  }
+  .content-list4-ul5 {
+    padding-left: var(--dl-layout-space-threeunits);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .content-list4-ul2 {
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+  }
+  .content-list4-ul5 {
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+  }
+}
